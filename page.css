@@ -1,0 +1,61 @@
+p {
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tribute-image {
+    width: 350px;
+    height: 241.48px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.picture {
+    width: 350px;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.information {
+    background-color: rgb(213, 213, 213);
+    border: none;
+    border-radius: 2px;
+    margin-left: 60px;
+    width: 300px;
+    padding: 10px 15px 15px 25px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.name {
+    margin-top: 2px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-bottom: 13px;
+}
+
+.birth-date, .death-date, .place-born {
+    font-size: 14px;
+    color: gray;
+}
